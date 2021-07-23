@@ -1,0 +1,66 @@
+/* goole font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/* common css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-position: bottom bottom;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+.quiz-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.btn {
+    background-color: teal;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1.3rem;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: rgb(11, 98, 98)
+}
