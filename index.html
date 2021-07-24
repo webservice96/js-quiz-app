@@ -9,41 +9,42 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body>
+<body id="bodyId">
 
     <div class="quiz-container">
         <div class="quiz-header">
-            <h2>Questions for you.</h2>
+            <h2 id="question">Questions for you.</h2>
             <ul>
-                <li>
-                    <input type="radio" name="answer" id="qa">
-                    <label for="qa">How many things are needed to learn for a full stack developer?</label>
+                <li class="q-box-1">
+                    <input type="radio" name="answer" class="answer" id="a">
+                    <label for="a" class="qa_text">How many things are needed to learn for a full stack developer?</label>
                 </li>
-                <li>
-                    <input type="radio" name="answer" id="qb">
-                    <label for="qb">What is the most used programing language?</label>
+                <li class="q-box-2">
+                    <input type="radio" name="answer" class="answer" id="b">
+                    <label for="b" class="qb_text">What is the most used programing language?</label>
                 </li>
-                <li>
-                    <input type="radio" name="answer" id="qc">
-                    <label for="qc">How many days need to learn any programing language?</label>
+                <li class="q-box-3">
+                    <input type="radio" name="answer" class="answer" id="c">
+                    <label for="c" class="qc_text">How many days need to learn any programing language?</label>
                 </li>
-                <li>
-                    <input type="radio" name="answer" id="qd">
-                    <label for="qd">Where is the Fiverr Head Office?</label>
+                <li class="q-box-4">
+                    <input type="radio" name="answer" class="answer" id="d">
+                    <label for="d" class="qd_text">Where is the Fiverr Head Office?</label>
                 </li>
-                <li>
-                    <input type="radio" name="answer" id="qe">
-                    <label for="qe">When did Github Start their Service?</label>
+                <li class="q-box-5">
+                    <input type="radio" name="answer" class="answer" id="e">
+                    <label for="e" class="qe_text">When did Github Start their Service?</label>
                 </li>
-                <li>
-                    <input type="radio" name="answer" id="qf">
-                    <label for="qf">What year was Javascript launched?</label>
+                <li class="q-box-6">
+                    <input type="radio" name="answer" class="answer" id="f">
+                    <label for="f" class="qf_text">What year was Javascript launched?</label>
                 </li>
             </ul>
         </div>
-        <button class="btn"> Submit </button>
+        <button class="btn" id="submit"> Submit </button>
     </div>
 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
 </body>
 
